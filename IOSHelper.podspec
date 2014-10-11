@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/ateliee/IOSHelper"
   s.license      = "MIT"  
   s.author       = { "ateliee" => "info@ateliee.com" }
-  s.ios.deployment_target = ‘6.0’
+  s.platform     = :ios, "5.0"
   s.source       = { :git => "https://github.com/ateliee/IOSHelper", :tag => "0.0.1" }
 
   s.source_files  = "IOSHelper", "IOSHelper/**/*.{h,m}"
