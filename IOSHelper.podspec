@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.author       = { "ateliee" => "info@ateliee.com" }
   s.platform     = :ios, "5.0"
   s.source       = { :git => "git@github.com:ateliee/IOSHelper.git”, :tag => “0.0.2” }
-  s.source_files  = "IOSHelper/*"
+  s.source_files  = 'IOSHelper', 'IOSHelper/**/*.{h,m}'
   s.requires_arc = true
 
 end
