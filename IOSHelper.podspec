@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/ateliee/IOSHelper"
   s.license      = "MIT"  
-  s.author       = { "ateliee" => "info@ateliee.com" }
+  s.author       = { ‘ateliee’ => ‘info@ateliee.com’ }
   s.platform     = :ios, "5.0"
   s.source       = { :git => "git@github.com:ateliee/IOSHelper.git”, :tag => “0.0.2” }
 
