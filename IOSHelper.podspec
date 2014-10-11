@@ -19,8 +19,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "5.0"
   s.source       = { :git => "git@github.com:ateliee/IOSHelper.git”, :tag => “0.0.2” }
 
-  s.source_files  = "IOSHelper", "IOSHelper/*.{h,m}"
-  # s.exclude_files = "Classes/Exclude"
-
-  # s.public_header_files = "Classes/**/*.h"
+  s.source_files  = "IOSHelper/*.{h,m}"
 end
