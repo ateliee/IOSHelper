@@ -3,7 +3,6 @@ Pod::Spec.new do |s|
   s.name         = "IOSHelper"
   s.version      = "0.0.1"
   s.summary      = "A short description of IOSHelper."
-
   s.description  = <<-DESC
                    A longer description of IOSHelper in Markdown format.
 
@@ -18,8 +17,7 @@ Pod::Spec.new do |s|
   s.author       = { "ateliee" => "info@ateliee.com" }
   s.platform     = :ios, "5.0"
   s.source       = { :git => "git@github.com:ateliee/IOSHelper.git”, :tag => “0.0.2” }
-
-  s.source_files  = 'IOSHelper\/*.{h,m}'
+  s.source_files  = "IOSHelper\/*.{h,m}"
   s.requires_arc = true
 
 end
