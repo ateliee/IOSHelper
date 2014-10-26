@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Pod::Spec.new do |s|
   s.name         = 'IOSHelper'
   s.version      = '1.0.0'
@@ -26,4 +27,20 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'git@github.com:ateliee/IOSHelper.git', :tag => '1.0.0' }
   s.source_files  = 'Classes', '*.{h,m}'
   s.requires_arc  = true
+=======
+
+Pod::Spec.new do |s|
+  s.name         = "IOSHelper"
+  s.version      = "0.1.3"
+  s.summary      = "UIView or other Helper."
+  s.description  = "IOS UIView or other Helper Category.install and use."
+  s.homepage     = "https://github.com/ateliee/IOSHelper"
+  s.license = 'MIT'
+  s.author = { "ateliee" => "info@ateliee.com" }
+  s.platform = :ios, '5.0'
+  s.source = { :git => "https://github.com/ateliee/IOSHelper.git", :tag => "0.1.3" }
+  s.source_files  = 'IOSHelper', 'IOSHelper/**/*.{h,m}'
+  s.framework = 'UIKit', 'CoreGraphics', 'Foundation'
+  s.requires_arc = true
+>>>>>>> f1ac5ba5caef63fbd9924e3ffd8a8a86deb08c22
 end
