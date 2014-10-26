@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
   }
   s.platform     = :ios, '5.0'
   s.source       = { :git => 'git@github.com:ateliee/IOSHelper.git', :tag => '1.0.0' }
-  s.source_files  = 'Classes', 'IOSHelper/*.{h,m}’
+  s.source_files  = 'Classes', 'IOSHelper/*.{h,m}'
   s.requires_arc  = true
 end
