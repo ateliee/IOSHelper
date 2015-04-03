@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:IOSHelper/NSString+Helpers.h">
+   </FileRef>
+   <FileRef
+      location = "group:IOSHelper/NSString+Helpers.m">
+   </FileRef>
+   <FileRef
+      location = "group:IOSHelper/UIDevice+Helpers.h">
+   </FileRef>
+   <FileRef
+      location = "group:IOSHelper/UIDevice+Helpers.m">
+   </FileRef>
+   <FileRef
+      location = "group:IOSHelper/UIImage+Helpers.h">
+   </FileRef>
+   <FileRef
+      location = "group:IOSHelper/UIImage+Helpers.m">
+   </FileRef>
+</Workspace>

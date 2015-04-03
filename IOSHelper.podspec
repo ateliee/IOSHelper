@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'IOSHelper'
-  s.version      = '1.0.1'
+  s.version      = '1.0.2'
   s.summary      = 'IOS Basic Class Categorys.'
   s.description  = <<-DESC
                    this classes is Basic Class Categorys.
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.platform     = :ios, '5.0'
-  s.source       = { :git => 'https://github.com/ateliee/IOSHelper.git', :tag => '1.0.1' }
+  s.source       = { :git => 'https://github.com/ateliee/IOSHelper.git', :tag => '1.0.2' }
   s.source_files  = 'Classes', 'IOSHelper/*.{h,m}'
   s.requires_arc  = true
 end

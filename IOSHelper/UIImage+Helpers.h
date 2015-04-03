@@ -10,6 +10,7 @@
 
 @interface UIImage (Helpers)
 
++(UIImage*) getImage:(NSString*)path;
 // 画面サイズに合わせて自動リサイズ
 -(UIImage *) autoResizeScale;
 // リサイズ

@@ -10,6 +10,17 @@
 
 @implementation UIImage (Helpers)
 
++(UIImage*) getImage:(NSString*)path{
+    UIImage* img = [UIImage imageNamed:path];
+    if (!img) {
+        NSData *data = [[NSFileManager defaultManager] contentsAtPath:path];
+        if (data != nil){
+            img = [UIImage imageWithData:data];
+        }
+    }
+    return img;
+}
+
 // 画面サイズに合わせて自動リサイズ
 -(UIImage *) autoResizeScale{
     float screenScale = [UIScreen mainScreen].scale;
