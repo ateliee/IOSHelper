@@ -33,12 +33,12 @@
 // リサイズ
 -(UIImage *)resizeScale : (float) scale{
     CGSize rs = CGSizeMake(self.size.width * scale, self.size.height * scale);
-    
-    UIGraphicsBeginImageContext(rs);
+
+    UIGraphicsBeginImageContextWithOptions(rs, NO, 0.0);
     [self drawInRect:CGRectMake(0, 0, rs.width, rs.height)];
     UIImage* new = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
-    
+
     return new;
 }
 
